@@ -1,6 +1,12 @@
 
 *.pyc
 
+<<<<<<< HEAD
 *.xml
 
 *.iml
+=======
+.idea/*
+
+*.bin
+>>>>>>> dculyba/master
