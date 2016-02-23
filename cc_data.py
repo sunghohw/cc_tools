@@ -350,7 +350,7 @@ class CCPasswordField(CCField):
     @property
     def byte_data(self):
         password_bytes = b""
-        #password_bytes += self.password.encode("ascii")
+        password_bytes += self.password.encode("ascii")
         password_bytes + b'\x00'
         return password_bytes
 
